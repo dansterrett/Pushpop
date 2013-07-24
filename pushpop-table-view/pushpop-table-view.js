@@ -150,7 +150,6 @@ Pushpop.TableView = function TableView(element) {
     
     tableViewCell.didReceiveTap();
     self.selectRowAtIndex(this.tableViewCell.getIndex());
-    evt.preventDefault();
   });
   
   // Cancel any pending accessory, editing accessory or row selections if a mouse or touch move occurs.
